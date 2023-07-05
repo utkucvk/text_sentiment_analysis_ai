@@ -1,5 +1,6 @@
 *Türkçe*
-# Metin Duygu Analizi
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------# Metin Duygu Analizi
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Proje kapsamında doğal dil işleme modelini kullanarak metinlerin duygu analizinin yapılması ve olumluluk durumlarının tespit edilmesi amaçlanmıştır. Natural Language Toolkit, Scikit-Learn, Numpy ve Pandas kütüphaneleri ile Flask modülü kullanılmıştır. 
 
@@ -14,11 +15,13 @@ Proje içerisindeki **"Restaurant_Reviews.csv"** dosyası, proje içerisinde kul
 Toplanan veriler temizlenip düzenlenerek Pandas kütüphanesi ile en verimli çalışacak şekilde evrilmiştir.
 
 **MIT lisanlı** proje dahilinde bu veri seti farklı projelerde uygun atıflar ile kullanılabilir.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-🥴
 
 *English*
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Text Sentiment Analysis
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 The aim of the project is to perform sentiment analysis on texts and determine the positivity status using a natural language processing model. The project utilizes the Natural Language Toolkit (NLTK), Scikit-Learn, Numpy, and Pandas libraries, along with the Flask module.
 
@@ -33,3 +36,4 @@ The **"Restaurant_Reviews.csv"** file within the project is the dataset used in 
 The collected data has been cleaned and organized to work efficiently using the Pandas library.
 
 This dataset, included in the project under the **MIT license**, is available for use with proper attribution in different projects.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
