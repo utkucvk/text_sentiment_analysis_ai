@@ -15,7 +15,7 @@ Toplanan veriler temizlenip düzenlenerek Pandas kütüphanesi ile en verimli ç
 **MIT lisanlı** proje dahilinde bu veri seti farklı projelerde uygun atıflar ile kullanılabilir.
 
 
-![ai](https://www.canva.com/design/DAFnzReHWpY/1wOH81l6h_8yEEDE7HzL4A/edit?utm_content=DAFnzReHWpY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+![ai](https://i.hizliresim.com/mjqmy46.png)
 
 
 # Text Sentiment Analysis
