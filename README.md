@@ -1,8 +1,6 @@
 *Türkçe*
 # Metin Duygu Analizi
 
-![python logo](https://twtv3.ams3.digitaloceanspaces.com/posts/virtual-env-python.png)
-
 Proje kapsamında doğal dil işleme modelini kullanarak metinlerin duygu analizinin yapılması ve olumluluk durumlarının tespit edilmesi amaçlanmıştır. Natural Language Toolkit, Scikit-Learn, Numpy ve Pandas kütüphaneleri ile Flask modülü kullanılmıştır. 
 
 NLTK kütüphanesinin içerisinde bulunan "stopwords" dil kaynaklı durak kelimeleri ile birlikte veri seti incelenmiş ve duygu analizi aşamasının hata payı büyük oranda düşürülmüştür.
@@ -19,8 +17,6 @@ Toplanan veriler temizlenip düzenlenerek Pandas kütüphanesi ile en verimli ç
 
 *English*
 # Text Sentiment Analysis
-
-![python logo](https://twtv3.ams3.digitaloceanspaces.com/posts/virtual-env-python.png)
 
 The aim of the project is to perform sentiment analysis on texts and determine the positivity status using a natural language processing model. The project utilizes the Natural Language Toolkit (NLTK), Scikit-Learn, Numpy, and Pandas libraries, along with the Flask module.
 
