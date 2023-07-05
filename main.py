@@ -12,7 +12,6 @@ ps = PorterStemmer()
 nltk.download('stopwords')
 from nltk.corpus import stopwords
 
-#VERİ ÖNİŞLEME
 derlem = []
 for i in range(986):
     yorum = re.sub('[^a-zA-Z]',' ', yorumlar['Review'][i])
@@ -26,13 +25,10 @@ for i in range(986):
     yorum = ' '.join(yorum)
     derlem.append(yorum)
 
-# for döngüsü ile birlikte bütün yorumlar için bir filtre fonksiyonu oluşturuldu. her bir yorum satırı için teker teker derleme yapıldı.
-
-#ÖZNİTELİK ÇIKARIMI
 from sklearn.feature_extraction.text import CountVectorizer
-cv = CountVectorizer(max_features=1000) #rami rahatlatmak amacı ile yalnızca en çok kullanılan 1000 kelimeyi kullan
-X = cv.fit_transform(derlem).toarray() #bağımsız değişken
-y = yorumlar.iloc[:,1].values #bağımlı değişken
+cv = CountVectorizer(max_features=1000)
+X = cv.fit_transform(derlem).toarray() 
+y = yorumlar.iloc[:,1].values 
 
 #MAKİNE ÖĞRENMESİ
 from sklearn.model_selection import train_test_split
@@ -46,8 +42,7 @@ y_pred = gnb.predict(X_test)
 
 from sklearn.metrics import confusion_matrix
 cm = confusion_matrix(y_test,y_pred)
-print(cm) # %68 başarı oranı / %32 hata payı
-
+#print(cm)
 
 from flask import Flask, render_template
 import matplotlib.pyplot as plt
