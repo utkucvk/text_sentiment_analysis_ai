@@ -30,7 +30,6 @@ cv = CountVectorizer(max_features=1000)
 X = cv.fit_transform(derlem).toarray() 
 y = yorumlar.iloc[:,1].values 
 
-#MAKİNE ÖĞRENMESİ
 from sklearn.model_selection import train_test_split
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.20, random_state = 0)
 
