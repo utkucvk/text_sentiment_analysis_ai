@@ -15,7 +15,7 @@ Toplanan veriler temizlenip düzenlenerek Pandas kütüphanesi ile en verimli ç
 
 **MIT lisanlı** proje dahilinde bu veri seti farklı projelerde uygun atıflar ile kullanılabilir.
 
-@octocat :+1: This PR looks great - it's ready to merge! :shipit:
+🥴
 
 *English*
 # Text Sentiment Analysis
