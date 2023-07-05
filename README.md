@@ -1,3 +1,3 @@
-Metin Duygu Analizi Projesi ve Kullanılan Veri Seti
+"# Metin Duygu Analizi Projesi"
 
 
