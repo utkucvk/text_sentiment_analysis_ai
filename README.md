@@ -1,3 +1,4 @@
-"# Metin Duygu Analizi Projesi"
+# Metin Duygu Analizi Projesi
+
 
 
